@@ -19,6 +19,42 @@ You can install the necessary Python libraries using pip:
 
 ```bash
 pip install requests beautifulsoup4 pandas numpy
+```
 
 
+## Usage
+Scraping and Collecting Data
+To scrape the website and collect property data, follow these steps:
 
+Initialize the project: Ensure you have all the required libraries installed.
+
+Run the main script: The script main.py is the main file to gather the data. Execute the script to begin the scraping process.
+
+bash
+Code kopiÃ«ren
+python collect_data.py
+```
+
+Data Cleaning and Preprocessing: The collected data will be stored in a CSV file, ensuring it follows the required structure and contains no missing values.
+
+CSV Output: The final dataset will be saved as real_estate_data.csv in the root directory. The dataset will include the following columns:
+
+Locality
+Type of property (House/Apartment)
+Subtype of property (Bungalow, Chalet, Mansion, etc.)
+Price
+Type of sale
+Number of rooms
+Living area
+Fully equipped kitchen (0 = No, 1 = Yes)
+Furnished (0 = No, 1 = Yes)
+Open fire (0 = No, 1 = Yes)
+Terrace (0 = No, 1 = Yes)
+If yes: Terrace area
+Garden (0 = No, 1 = Yes)
+If yes: Garden area
+Surface of the land
+Surface area of the plot of land
+Number of facades
+Swimming pool (0 = No, 1 = Yes)
+State of the building (New, Renovated, etc.)
