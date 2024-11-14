@@ -66,7 +66,10 @@ The final dataset will be saved as real_estate_data.csv in the root directory. T
 - Scrape Emmoweb real estate websites to gather a variety of property listings.
 - Ensure the dataset is free from duplicates and that missing values are handled by setting them as `None`.
 - Avoid scraping data that violates any legal or ethical guidelines (e.g., privacy concerns).
-  ![Screenshot from 2024-11-14 12-09-12](https://github.com/user-attachments/assets/eecb2fcf-123e-491b-8cf5-39fa47197b10)
+
+![Screenshot from 2024-11-14 12-22-29](https://github.com/user-attachments/assets/6f5ab7d7-af9f-4352-825a-586a124fd828)
+
+
 
 
 ## Contributors
