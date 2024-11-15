@@ -28,16 +28,12 @@ To scrape the website and collect property data, follow these steps:
 
 Initialize the project: Ensure you have all the required libraries installed.
 
-Run the main script: The script main.py is the main file to gather the data. Execute the script to begin the scraping process.
-
-```bash
-Code kopiÃ«ren
-python collect_data.py
-```
+Run the main script: The script property_scraper.ipynb is the main file to gather the data. Execute the script to begin the scraping process.
+And you get the result of the links.
 
 
 ### Data Cleaning and Preprocessing:
- The collected data will be stored in a CSV file, ensuring it follows the required structure and contains no missing values.
+ The collected data will be stored in a CSV file, ensuring it follows the required structure and contains no missing values in Training_Data.csv .
 
 ### CSV Output: 
 The final dataset will be saved as real_estate_data.csv in the root directory. The dataset will include the following columns:
@@ -73,9 +69,9 @@ The final dataset will be saved as real_estate_data.csv in the root directory. T
 
 
 ## Contributors
-- **Mohamad Hussain** 
-- **Celina**
-- **Mero** 
+- **Mohamad Hussain** : Links extracting , README file creating ,and  data cleaning .
+- **Celina** : Contnet extracting and code combination.
+- **Mero** : code combination and testing.
 
 
 ## Timeline
